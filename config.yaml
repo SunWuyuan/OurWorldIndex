@@ -8,6 +8,8 @@ catch_rules: #转换规则
           - ourworld.wuyuan.dev
       - search: www\.recaptcha\.net
         action: skip
+      - search: registry\.npmmirror\.com
+        action: skip
       - search: recaptcha\.net
         action: skip
       - search: \.(js|css)
