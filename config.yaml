@@ -5,7 +5,6 @@ catch_rules: #转换规则
       - search: _
         replace:
           - ourworld.onrender.com
-          - ourworld.wuyuan.dev
       - search: www\.recaptcha\.net
         action: skip
       - search: registry\.npmmirror\.com
